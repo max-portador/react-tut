@@ -41,7 +41,7 @@ const styles = {
 
       <button
        className='rm'
-       onClick={ () => removeTodo.bind(null, todo.id)}
+       onClick={ removeTodo.bind(null, todo.id)}
        >
 
              &times;
